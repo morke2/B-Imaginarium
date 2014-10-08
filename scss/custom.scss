@@ -1,0 +1,119 @@
+@import "bootstrap/_variables";
+@import "bootstrap/_mixins";
+
+body {
+  color: #696969;
+  background: #efefef;
+  font-family: 'Istok Web',Arial,Helvetica,sans-serif;
+}
+
+#top-line {
+  padding: 10px 0;
+
+  .currency {
+    .btn-group .btn {
+      border: 0;
+      background: transparent;
+    }
+    .btn-group.open .btn {
+      box-shadow: none;
+    }
+    .btn,
+    ul.dropdown-menu li a {
+      color: #646464;
+    }
+  }
+  .top-links {
+    ul.list-inline {
+      margin-top: 5px;
+      li a {
+        color: #696969;
+      }
+    }
+  }
+}
+
+#header-content {
+  background: #fff;
+  padding:30px 5px;
+
+  #logo {
+    display: block;
+  }
+}
+
+.navbar {
+  background: #999999;
+  .container {
+    background:#313131 ;
+  }
+}
+
+/* Reset bootstrap nav colors */
+.navbar-default {
+  .navbar-nav {
+    > li > a {
+      text-transform: uppercase;
+      color: #fff;
+
+      &:hover,
+      &:focus {
+        color: #fff;
+        background-color: #646464;
+      }
+    }
+    > .active > a {
+      &,
+      &:hover,
+      &:focus {
+        color: #fff;
+        background-color: #646464;
+      }
+    }
+    > .disabled > a {
+      &,
+      &:hover,
+      &:focus {
+        color: $navbar-default-link-disabled-color;
+        background-color: $navbar-default-link-disabled-bg;
+      }
+    }
+  }
+}
+
+.form-search {
+  input {
+    border: 1px solid #acacac;
+    box-shadow: 1px 1px 5px #acacac inset;
+    width: 241px;
+    border-radius: 0;
+  }
+  .btn {
+    border-radius: 0;
+    background: #2eb890;
+    border: 1px solid #2eb890;
+    color: #fff;
+    text-transform: uppercase;
+  }
+}
+.quick-access {
+  .contact,
+  .cart{
+    img {
+      margin-right: 10px;
+      margin-top: 5px;
+    }
+    span {
+      clear: both;
+    }
+    span.heading {
+      font-weight: bold;
+    }
+  }
+  .cart img {
+    margin-top: -5px;
+  }
+}
+
+
+

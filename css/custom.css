@@ -1,0 +1,71 @@
+body {
+  color: #696969;
+  background: #efefef;
+  font-family: 'Istok Web',Arial,Helvetica,sans-serif; }
+
+#top-line {
+  padding: 10px 0; }
+  #top-line .currency .btn-group .btn {
+    border: 0;
+    background: transparent; }
+  #top-line .currency .btn-group.open .btn {
+    box-shadow: none; }
+  #top-line .currency .btn,
+  #top-line .currency ul.dropdown-menu li a {
+    color: #646464; }
+  #top-line .top-links ul.list-inline {
+    margin-top: 5px; }
+    #top-line .top-links ul.list-inline li a {
+      color: #696969; }
+
+#header-content {
+  background: #fff;
+  padding: 30px 5px; }
+  #header-content #logo {
+    display: block; }
+
+.navbar {
+  background: #999999; }
+  .navbar .container {
+    background: #313131; }
+
+/* Reset bootstrap nav colors */
+.navbar-default .navbar-nav > li > a {
+  text-transform: uppercase;
+  color: #fff; }
+  .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #fff;
+    background-color: #646464; }
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #fff;
+  background-color: #646464; }
+.navbar-default .navbar-nav > .disabled > a, .navbar-default .navbar-nav > .disabled > a:hover, .navbar-default .navbar-nav > .disabled > a:focus {
+  color: #ccc;
+  background-color: transparent; }
+
+.form-search input {
+  border: 1px solid #acacac;
+  box-shadow: 1px 1px 5px #acacac inset;
+  width: 241px;
+  border-radius: 0; }
+.form-search .btn {
+  border-radius: 0;
+  background: #2eb890;
+  border: 1px solid #2eb890;
+  color: #fff;
+  text-transform: uppercase; }
+
+.quick-access .contact img,
+.quick-access .cart img {
+  margin-right: 10px;
+  margin-top: 5px; }
+.quick-access .contact span,
+.quick-access .cart span {
+  clear: both; }
+.quick-access .contact span.heading,
+.quick-access .cart span.heading {
+  font-weight: bold; }
+.quick-access .cart img {
+  margin-top: -5px; }
+
+/*# sourceMappingURL=custom.css.map */
