@@ -6,7 +6,12 @@ body {
   background: #efefef;
   font-family: 'Istok Web',Arial,Helvetica,sans-serif;
 }
-
+.page {
+  overflow: hidden;
+}
+.container-fluid {
+  max-width: 1170px;
+}
 #top-line {
   padding: 10px 0;
 
@@ -35,16 +40,17 @@ body {
 
 #header-content {
   background: #fff;
-  padding:30px 5px;
+  padding:30px 0;
 
   #logo {
     display: block;
+    margin-left: 15px;
   }
 }
 
 .navbar {
   background: #999999;
-  .container {
+  .container-fluid {
     background:#313131 ;
   }
 }
@@ -99,12 +105,14 @@ body {
 .quick-access {
   .contact,
   .cart{
+    float: right;
     img {
-      margin-right: 10px;
+      margin-right: 3px;
       margin-top: 5px;
     }
     span {
       clear: both;
+      /*font-size: 13px;*/
     }
     span.heading {
       font-weight: bold;
@@ -116,4 +124,26 @@ body {
 }
 
 
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
 
+  .form-search {
+    width: 40%;
+  }
+  .navbar-nav > li > a {
+    padding:15px 10px;
+  }
+}
+@media (max-width: $screen-xs-max) {
+  #logo {
+    text-align: center;
+  }
+
+  .quick-access {
+    padding-top: 20px;
+    .contact {
+      float: left !important;
+    }
+  }
+
+
+}
